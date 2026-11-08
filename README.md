@@ -106,10 +106,20 @@ Either way, the workflow is the same:
 3. Let the model decide which tool to call based on what it needs.
 4. The model continues the task with the returned skill content.
 
+## Working from real examples
+
+If you want concrete, copy-paste examples to adapt for your own work, check the `examples/` directory. Each file covers a specific engineering scenario — bug fixing with verification, refactoring with behavioral anchors, investigation before changes, feature design with multi-model comparison, test-first development, dependency upgrade analysis, and long-running unattended work with audit trails. Read through the examples, pick the one closest to your current task, and adapt the tool calls to your specific codebase and requirements. The goal is to show you how real pstack usage patterns translate into MCP tool calls, not to provide a one-size-fits-all script.
+
 ## Installation
 
 ### Option A — LM Studio Plugin
 
+#### *Method 1*:
+```
+lms get hoonowng/pstack-mcp
+```
+
+#### *Method 2*:
 1. Clone this repository:
 
 ```bash
