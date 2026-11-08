@@ -1,0 +1,5 @@
+{"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2024-11-05","capabilities":{},"clientInfo":{"name":"test","version":"0.0.1"}}}
+{"jsonrpc":"2.0","id":2,"method":"tools/list","params":{}}
+{"jsonrpc":"2.0","id":3,"method":"tools/call","params":{"name":"playbook-route","arguments":{"task":"fix the CSV export"}}}
+{"jsonrpc":"2.0","id":4,"method":"tools/call","params":{"name":"skill-prompt","arguments":{"skill_name":"how","task_context":"walk through the cache system"}}}
+{"jsonrpc":"2.0","id":5,"method":"tools/call","params":{"name":"search_skills_embedded","arguments":{"query":"parallel design","limit":3}}}
