@@ -1,6 +1,6 @@
 # pstack-mcp
 
-MCP server that exposes the [pstack](https://github.com/cursor/plugins/tree/main/pstack) Agent Skills collection to any LLM-powered environment — LM Studio, Cursor, and other MCP hosts.
+MCP server that exposes the [pstack](https://github.com/cursor/plugins/tree/main/pstack) Agent Skills collection to any LLM-powered environment — LM Studio, and other MCP hosts.
 
 ## Why pstack-mcp?
 
